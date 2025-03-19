@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 
-const private_app_token = 'pat-na1-a271eab2-46c2-4c7d-9721-73c1c30fdXXX'
+const private_app_token = ''
 
 app.get('/homepage-projects-jp', async (req, res) => {
   const projects-jpEndpoint = 'https://api.hubspot.com/crm/v3/objects/projects-jp?properties=project_name,project_description,project_notes';
